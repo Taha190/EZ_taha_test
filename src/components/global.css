@@ -1,0 +1,11 @@
+.horizontal-separator {
+    height: 1px;
+    background-color: #ddd;
+    margin: 1rem 0;
+  }
+.vertical-separator {
+    width: 1px;
+    background-color: #ddd;
+    height: 100%; /* Adjust based on your needs */
+    margin: 0 1rem; /* Adjust margins as desired */
+  }

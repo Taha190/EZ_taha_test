@@ -48,11 +48,6 @@ function SigninForm() {
     )
   }} />
    
-              {/* {isVisible ? (
-                  <VisibilityIcon onClick={toggleVisibility} />
-                ) : (
-                  <VisibilityOffIcon onClick={toggleVisibility} />
-                )} */}
             </div>
             <div class="flex flex-row-reverse items-center justify-between">
               <div class=" text-sm">
