@@ -9,3 +9,24 @@
     height: 100%; /* Adjust based on your needs */
     margin: 0 1rem; /* Adjust margins as desired */
   }
+
+  .base-element {
+    /* Styles for the base element (optional) */
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .overlay-element {
+    position: absolute; /* Make the overlay element absolute */
+    top: 0;             /* Position the overlay to the top */
+    left: 0;            /* Position the overlay to the left */
+    width: 100%;       /* Set width to 100% of the container */
+    height: 100%;      /* Set height to 100% of the container */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff;        /* White text color */
+    display: flex;     /* Center content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+  }
